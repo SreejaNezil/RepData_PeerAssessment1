@@ -77,7 +77,7 @@ plot(meanStepsPerDay$interval,meanStepsPerDay$mean,type = "l", col = "red",
      main = "Daily activity pattern")
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
+![plot of chunk unnamed-chunk-5](figure/Graph2.png) 
 
 The time frame that contains maximum number of steps is computed as shown below
 
@@ -149,7 +149,7 @@ StepsperDay2 <- aggregate(steps ~ date, data = actData2, sum, na.rm = TRUE)
 hist(StepsperDay2$steps, main = "Total number of steps taken by day - Imputed missing values", xlab = "Number of steps", col = "blue")
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png) 
+![plot of chunk unnamed-chunk-9](figure/Graph3.png) 
 
 The mean and median for the new data set are
 
@@ -201,4 +201,4 @@ xyplot(steps ~ interval | time_of_week, stepsByDay, type = "l", layout = c(1, 2)
        xlab = "Interval", ylab = "Number of steps")
 ```
 
-![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png) 
+![plot of chunk unnamed-chunk-12](figure/Graph4.png) 
