@@ -42,7 +42,7 @@ str(stepsperday)
 hist(stepsperday$steps, main = "Total number of steps taken by day", xlab = "Number of steps", col = "grey")
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
+![plot of chunk unnamed-chunk-2](figure/Graph1.png) 
 
 **The mean of total steps taken per day is**
 
