@@ -23,7 +23,7 @@ str(actData)
 ```
 Moving on to the analysis of activity data
 
-**Q1: What is the total number of steps taken per day ? **
+**Q1: What is the total number of steps taken per day?**
 
 Answer: The graph below depicts the frequncy distribution on number of steps aggregated by the day.
 
@@ -65,7 +65,7 @@ medianSteps
 ## [1] 10765
 ```
 
-**Q2: What is the average daily activity pattern ? **
+**Q2: What is the average daily activity pattern?**
 Answer: Here is a time series plot
 
 ```r
